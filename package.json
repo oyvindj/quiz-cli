@@ -1,0 +1,16 @@
+{
+  "name": "quiz-cli",
+  "version": "1.0.0",
+  "description": "quiz cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oyvindj",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "inquirer": "^6.1.0",
+    "mongoose": "^5.2.7"
+  }
+}
