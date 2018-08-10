@@ -24,7 +24,7 @@ const findUser = (name) => {
 }
 const listUsers = () => {
   User.find({}).then( user => {
-      for(u in user) console.log('firstname: ' + u.firstname);
+      user.forEach(u => console.log('firstname: ' + u.firstname));
       console.info(`${user.length} users found`);
       mongoose.connection.close();
     }
